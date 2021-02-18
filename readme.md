@@ -1,6 +1,6 @@
-# TODO: PROJECT NAME HERE
+Team UMLE
 
-TODO: Brief outline of your project describing the dataset
+This App allows motorists to find nearby car parks. it uses public information from https://opendata.bristol.gov.uk/explore/dataset/traffic-accidents0/information/
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
