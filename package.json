@@ -1,0 +1,27 @@
+{
+  "name": "car-park-tracker",
+  "version": "1.0.0",
+  "description": "Team UMLE",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connormack/Car-Park-Tracker.git"
+  },
+  "keywords": [
+    "car",
+    "park",
+    "tracker"
+  ],
+  "author": "UML",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connormack/Car-Park-Tracker/issues"
+  },
+  "homepage": "https://github.com/connormack/Car-Park-Tracker#readme"
+}
