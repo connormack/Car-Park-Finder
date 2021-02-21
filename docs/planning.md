@@ -3,10 +3,11 @@
 ## Business Case
 
 ### Problem statement
-TODO: Replace the example text like this with text that describes your project. What is the problem to be addressed?<
+Team UML aims to develop a way for citizens and visitors to easily find somewhere to park their vehicles quickly and efficiently. The Car Park Locator application is the realization of this goal, it is a simple way for its users to find the closest car park to them or a desired location.
 
 ### Business benefits
-TODO: List high-level benefits that this product will provide.
+The Car Park locator application is for anyone who wants to find a car park at a specific location. This could be anyone either inside or outside of Bristol, who needed the information now or in the future. Beneficial information that will be included in the application will be car park type, number of spaces and operating times. 
+
 
 ### Options Considered
 TODO: What are some other customer options or leading products that address the same needs?
