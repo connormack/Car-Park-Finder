@@ -27,7 +27,7 @@ TODO: Describe each use case (one per team member).
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](Pictures/UCD car park tracker.png)
+![Insert your Use-Case Diagram Here](images/UCD car park tracker.PNG)
 
 ## Software Requirements Specification
 ### Functional requirements
