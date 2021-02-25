@@ -54,7 +54,6 @@ TODO: Your Use-Case diagram should include all use-cases.
 *FR3: The system shall get data of car park locations from database.
 *FR4: The system shall how a map with the car park locations pinpointed.
 
-
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
