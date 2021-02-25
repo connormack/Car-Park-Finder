@@ -49,10 +49,10 @@ TODO: Your Use-Case diagram should include all use-cases.
 ![User Case Diagram](images/UCD-car-park-finder.PNG)
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
+*FR1: The system shall provide a menu of available options.
+*FR2: The system shall request permission to access map webpage. 
+*FR3: The system shall get data of car park locations from database.
+*FR4: The system shall how a map with the car park locations pinpointed.
 
 
 ### Non-Functional Requirements
