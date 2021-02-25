@@ -19,11 +19,7 @@ TODO: Describe each use case (one per team member).
 | **Description** | As a motorist I want to find carpark on a map |
 | **Actors** | Motorist |
 | **Assumptions** | Browser has internet connectivity</td></tr>
-| **Steps** | 1.	Opt to view a map of Bristol. 
-|           |2.	Request permission to access webpage of said map.
-|           |3.	Give permission for webpage access.
-|           |4.	Find the cap park in the desired database, data received from database.
-|           |5.	View the car park at the desired location on the map.
+| **Steps** | <ol><li>Opt to view a map of Bristol.</li><li>Request permission to access webpage of said map.</li><li>Give permission for webpage access.</li><liFind the cap park in the desired database, data received from database.</li><li>View the car park at the desired location on the map.</li><ol>|
 | **Variations** | Browser does not have internet connectivity |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
