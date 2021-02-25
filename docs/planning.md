@@ -10,7 +10,7 @@ The Car Park locator application is for anyone who wants to find a car park at a
 
 
 ### Options Considered
-Other possible options include using google map's search for 'car parks near me' or asking an individual to point you to the nearest car park. Google maps display a lot of information besides car parks which may be irrelevant to the user. This creates clutter and confusion and may mislead the user. When we ask an individual, there is no guarentee that the person knows the nearest car park. Even if the person knows the location, the directions can not be relayed as clearly and precisely as by using a map.
+Other possible options include using google map's search for _'car parks near me'_ or asking an individual to point you to the nearest car park. Google maps display a lot of information besides car parks which may be irrelevant to the user. This creates clutter and confusion and may mislead the user. When we ask an individual, there is no guarentee that the person knows the nearest car park. Even if the person knows the location, the directions can not be relayed as clearly and precisely as by using a map.
 
 ### Expected Risks
 The app points the user to the nearest car park. However, the app can not check or verify the number of parking spots available at a particular time. Therefore, there is a chance that the car park directed by the app may not have any parking spots left. In that case, the user may have to wait to find a spot and lose valuable time. In addition to that, the determining factor of the app's suggestion is purely distance. Hence from a choice of one park that is 1.5 miles from the user and takes an average of 20 minutes to navigate due to the traffic and another park 1.6 miles from the user that takes 10 minutes, the former car park is suggested, despite the latter being a more sensible choice for the user.
@@ -21,8 +21,8 @@ The app points the user to the nearest car park. However, the app can not check 
 * HTML and JavaScript will be used to create the application suitable for android/ios interface. This is done by keeping in mind that the device almost always used by users to search for car parks will be their mobile phones.
 * During the project, the collaborators will use GitHub to store and have common acess to the directory files of the program. The application will be hosted in Heroku.
 * After the release of the application, if a bug is found either by the collaborators or by the users, the collaborators, after recieving the information about this bug, will locate the error in their program directory and will fix the bug.
-* The application will only provide the information of the car parks within Bristol. A validator will be used that only allows the postcode within Bristol to be input by the user. If a postcode is not valid or is outside Bristol, an error message is displayed. This is done in order to keep up with the very specific aim of the program (to provide the nearest car park location to a motorist within Bristol.)
-* 
+* The application will only provide the information of the car parks within Bristol. A validator will be used that only allows the postcode within Bristol to be input by the user. If a postcode is not valid or is outside Bristol, an error message is displayed. This is done in order to keep up with the very specific aim of the program **(to provide the nearest car park location to a motorist within Bristol)**
+ 
 
 ### The context diagram for the project is displayed below :-
 
