@@ -49,10 +49,10 @@ TODO: Your Use-Case diagram should include all use-cases.
 ![User Case Diagram](images/UCD-car-park-finder.PNG)
 ## Software Requirements Specification
 ### Functional requirements
-*FR1: The system shall provide a menu of available options.
-*FR2: The system shall request permission to access map webpage. 
-*FR3: The system shall get data of car park locations from database.
-FR4: The system shall how a map with the car park locations pinpointed.
+* FR1: The system shall provide a menu of available options.
+* FR2: The system shall request permission to access map webpage. 
+* FR3: The system shall get data of car park locations from database.
+* FR4: The system shall how a map with the car park locations pinpointed.
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
