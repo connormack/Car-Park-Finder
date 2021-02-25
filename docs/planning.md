@@ -21,7 +21,7 @@ The app points the user to the nearest car park. However, the app can not check 
 * HTML and JavaScript will be used to create the application suitable for android/ios interface. This is done by keeping in mind that the device almost always used by users to search for car parks will be their mobile phones.
 * During the project, the collaborators will use GitHub to store and have common acess to the directory files of the program. The application will be hosted in Heroku.
 * After the release of the application, if a bug is found either by the collaborators or by the users, the collaborators, after recieving the information about this bug, will locate the error in their program directory and will fix the bug.
-* The application will only provide the information of the car parks within Bristol. A validator will be used that only allows the postcode within Bristol to be input by the user. If a postcode is not valid or is outside Bristol, an error message is displayed. This is done in order to keep up with the very specific aim of the program (to provide the nearest car park location to a motorist within Bristol.)
+* The application will only provide the information of the car parks within Bristol. A validator will be used that only allows the postcode within Bristol to be input by the user. If a postcode is not valid or is outside Bristol, an error message is displayed. This is done in order to keep up with the very specific aim of the program **(to provide the nearest car park location to a motorist within Bristol.)**
  
 
 ### The context diagram for the project is displayed below :-
