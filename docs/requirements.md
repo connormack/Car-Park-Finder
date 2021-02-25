@@ -14,7 +14,7 @@ TODO: Describe each use case (one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| Find a car park on a map ... | TODO: USE-CASE NAME | 
+|UC 1 ... |  Find a car park on a map | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a motorist I want to find carpark on a map |
 | **Actors** | Motorist |
