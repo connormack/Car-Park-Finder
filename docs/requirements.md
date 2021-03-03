@@ -81,7 +81,10 @@ TODO: Your Use-Case diagram should include all use-cases.
 >>>>>>> Stashed changes
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+* NFR1 – should accurately show the car park on the map ((functionality) (from UC1 and UC2)
+* NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2)
+* NFR3 – auto refresh to allow hands free use while driving(useability) (from UC1 and UC2)
+* NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2)
+* NFR5 – default location set to UWE as a zero point (maintainability) (from UC1 and UC2)
+* NFR6 – runs on IOS and android to allow mobile access(portability) (from UC1 and UC2)
 
-Indicate which UC the requirement comes from.
