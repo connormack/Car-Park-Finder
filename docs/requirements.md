@@ -8,12 +8,14 @@ Motorist
 ### User stories
 * As a motorist in Bristol, I want to find the nearest car park so that I can park my car.
 * As a motorist I want to find carpark on a map
-* Jeno user Story
+* As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge.
+
+
 
 ### Use Cases
 * UC1: Find the nearest car park
 * UC2: Find a car park on a map
-* Jeno use case
+* UC3: Select car park type
 
 | USE-CASE | UC1: Find the nearest car park | 
 | -------- | ------------------------------ |
@@ -35,13 +37,14 @@ Motorist
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+|USE-CASE | UC3: Select car park type | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Description** | As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge |
+| **Actors** | Motorist |
+| **Assumptions** | Browser supports geo-location and dataset contains relevant data </td></tr>
+| **Steps** | <ol><li>Give permission for geo-location (on request)</li><li>Opt to set range in distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car park within range on the map</li><ol>
+ |
+| **Variations** | Browser doesn't support geo-location |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
