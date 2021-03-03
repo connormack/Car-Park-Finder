@@ -7,7 +7,7 @@ Motorist
 
 ### User stories
 * As a motorist in Bristol, I want to find the nearest car park so that I can park my car.
-* Connor user story
+* As a motorist I want to find carpark on a map
 * Jeno user Story
 
 ### Use Cases
@@ -25,7 +25,7 @@ Motorist
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-|UC 2 |  Find a car park on a map | 
+|USE-CASE | UC 2:  Find a car park on a map | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a motorist I want to find carpark on a map |
 | **Actors** | Motorist |
