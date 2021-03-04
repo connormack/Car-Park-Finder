@@ -70,7 +70,6 @@ TODO: Your Use-Case diagram should include all use-cases.
 * FR2: The system shall request permission to access map webpage. 
 * FR3: The system shall get data of car park locations from database.
 * FR4: The system shall how a map with the car park locations pinpointed.
-=======
 * FR1: The system must provide a menu of available car parks. (from UC1 and UC2)
 * FR2: The system must request the user to input the desired postcode. (from UC1)
 * FR3: The system must, upon recieving the postcode, get the nearest car park from the database. (from UC1)
@@ -83,10 +82,10 @@ TODO: Your Use-Case diagram should include all use-cases.
 >>>>>>> Stashed changes
 
 ### Non-Functional Requirements
-* NFR1 – should accurately show the car park on the map ((functionality) (from UC1 and UC2)
-* NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2)
-* NFR3 – auto refresh to allow hands free use while driving(useability) (from UC1 and UC2)
-* NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2)
-* NFR5 – default location set to UWE as a zero point (maintainability) (from UC1 and UC2)
-* NFR6 – runs on IOS and android to allow mobile access(portability) (from UC1 and UC2)
+* NFR1 – should accurately show the car park on the map ((functionality) (from UC1 and UC2 and UC3)
+* NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2 and UC3)
+* NFR3 – auto refresh to allow hands free use while driving(useability) (from UC1 and UC2 and UC3)
+* NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2 and UC3)
+* NFR5 – default location set to UWE as a zero point (maintainability) (from UC1 and UC2 and UC3)
+* NFR6 – runs on IOS and android to allow mobile access(portability) (from UC1 and UC2 and UC3)
 
