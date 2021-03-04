@@ -79,7 +79,6 @@ TODO: Your Use-Case diagram should include all use-cases.
 * FR7: The system must, if the user desires, display five other nearest car parks to the desired postcode. (from UC1)
 * FR8: The system could display all the car park in the database in a table in the menu page. (from UC1)
 * FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
->>>>>>> Stashed changes
 
 ### Non-Functional Requirements
 * NFR1 – should accurately show the car park on the map ((functionality) (from UC1 and UC2 and UC3)
