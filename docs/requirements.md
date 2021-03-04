@@ -66,15 +66,15 @@ TODO: Your Use-Case diagram should include all use-cases.
 ## Software Requirements Specification
 ### Functional requirements
 
-*  FR5: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
-*  FR6: The system must request the user to input the desired postcode. (from UC1)
-*  FR7: The system must, upon recieving the postcode, get the nearest car park from the database. (from UC1)
-*  FR8: The system shall request permission to access map webpage. (from UC2) 
-*  FR9: The system shall get data of car park locations from database. (from UC1 and UC2)
-* FR10: The system shall show a map with the car park locations pinpointed. (from UC2)
-* FR11: The system must, if the user desires, display five other nearest car parks to the desired postcode. (from UC1)
-* FR12: The system could display all the car park in the database in a table in the menu page. (from UC1)
-* FR13: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
+* FR1: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
+* FR2: The system must request the user to input the desired postcode. (from UC1)
+* FR3: The system must, upon recieving the postcode, get the nearest car park from the database. (from UC1)
+* FR4: The system shall request permission to access map webpage. (from UC2) 
+* FR5: The system shall get data of car park locations from database. (from UC1 and UC2)
+* FR6: The system shall show a map with the car park locations pinpointed. (from UC2)
+* FR7: The system must, if the user desires, display five other nearest car parks to the desired postcode. (from UC1)
+* FR8: The system could display all the car park in the database in a table in the menu page. (from UC1)
+* FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
 
 ### Non-Functional Requirements
 * NFR1 – should accurately show the car park on the map (functionality) (from UC1 and UC2 and UC3)
