@@ -43,7 +43,7 @@ Motorist
 | **Actors** | Motorist |
 | **Assumptions** | Browser supports geo-location and dataset contains relevant data </td></tr>
 | **Steps** | <ol><li>Give permission for geo-location (on request)</li><li>Opt to set range in distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car park within range on the map</li><ol>|
-| **Variations** | Browser doesn't support geo-location |
+| **Variations** | Browser doesn't support geo-location <ol><li>Input postcode</li><li>Opt to set range in distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car park within range on the map</li><ol> |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
@@ -65,28 +65,24 @@ TODO: Your Use-Case diagram should include all use-cases.
 ![User Case Diagram](images/UCD-car-park-finder.PNG)
 ## Software Requirements Specification
 ### Functional requirements
-<<<<<<< Updated upstream
-* FR1: The system shall provide a menu of available options.
-* FR2: The system shall request permission to access map webpage. 
-* FR3: The system shall get data of car park locations from database.
-* FR4: The system shall how a map with the car park locations pinpointed.
-=======
-* FR1: The system must provide a menu of available car parks. (from UC1 and UC2)
+
+* FR1: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
 * FR2: The system must request the user to input the desired postcode. (from UC1)
 * FR3: The system must, upon recieving the postcode, get the nearest car park from the database. (from UC1)
-* FR4: The system shall request permission to access map webpage. (from UC2) 
-* FR5: The system shall get data of car park locations from database. (from UC1 and UC2)
-* FR6: The system shall show a map with the car park locations pinpointed. (from UC2)
+* FR4: The system shall request permission to access map webpage. (from UC2 and UC3) 
+* FR5: The system shall get data of car park locations from database. (from UC1 and UC2 and UC3)
+* FR6: The system shall show a map with the car park locations pinpointed. (from UC2 and UC3)
 * FR7: The system must, if the user desires, display five other nearest car parks to the desired postcode. (from UC1)
-* FR8: The system could display all the car park in the database in a table in the menu page. (from UC1)
+* FR8: The system could display all the car park in the database in a table in the menu page. (from UC1 and UC3)
 * FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
->>>>>>> Stashed changes
 
 ### Non-Functional Requirements
-* NFR1 – should accurately show the car park on the map ((functionality) (from UC1 and UC2)
-* NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2)
-* NFR3 – auto refresh to allow hands free use while driving(useability) (from UC1 and UC2)
-* NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2)
-* NFR5 – default location set to UWE as a zero point (maintainability) (from UC1 and UC2)
-* NFR6 – runs on IOS and android to allow mobile access(portability) (from UC1 and UC2)
+* NFR1 – should accurately show the car park on the map (functionality) (from UC1 and UC2 and UC3)
+* NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2 and UC3)
+* NFR3 – auto refresh to allow hands free use while driving(useability) (from UC1 and UC2 and UC3)
+* NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2 and UC3)
+* NFR5 – default location set to UWE as a zero point (maintainability) (from UC1 and UC2 and UC3)
+* NFR6 – runs on IOS and android to allow mobile access(portability) (from UC1 and UC2 and UC3)
+* NFR7 - display a welcome screen(understandability) (from UC3)
+* NRF8 - present option to set range in distance for the user (configurability) (from UC3)
 

@@ -4,10 +4,10 @@
 TODO: Describe a concrete scenario for each use-case. 
 Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.
 
-![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequence.png)
+![Insert your Interaction/Sequence Diagrams for each use-case here.](images/Sequence-Diagram-UC2.png)
 
 ## User Interface design
 TODO: Specify and develop a user interface mockup using an HTML wireframe.
 
-![Insert your wireframe screenshots for each use-case here](images/Steve's images/wireframe.png)
+![Insert your wireframe screenshots for each use-case here](images/wireframe.png)
 TODO: repeat as necessary
