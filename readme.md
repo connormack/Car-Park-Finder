@@ -3,7 +3,6 @@ Team UMLE
 This App allows motorists to find nearby car parks. it uses public information from [Open Data Bristol](https://opendata.bristol.gov.uk/explore/dataset/traffic-accidents0/information/)
 
 Individual Contribution
-
 UC1: Find the nearest car park - Dikshyanta Uprety
 UC2: Find a car park on a map - Connor Mackintosh
 UC3: Select car park type - Jeno Labodi
