@@ -4,6 +4,7 @@
 TODO: Describe a concrete scenario for each use-case. 
 Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.
 
+UC2:UC2:A motorist wants to enter a particular location into the app and find the closest car park.
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/Sequence-Diagram-UC2.png)
 
 ## User Interface design
