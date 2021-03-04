@@ -43,7 +43,7 @@ Motorist
 | **Actors** | Motorist |
 | **Assumptions** | Browser supports geo-location and dataset contains relevant data </td></tr>
 | **Steps** | <ol><li>Give permission for geo-location (on request)</li><li>Opt to set range in distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car park within range on the map</li><ol>|
-| **Variations** | Browser doesn't support geo-location |
+| **Variations** | Browser doesn't support geo-location <ol><li>Input postcode</li><li>Opt to set range in distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car park within range on the map</li><ol> |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
@@ -65,7 +65,7 @@ TODO: Your Use-Case diagram should include all use-cases.
 ![User Case Diagram](images/UCD-car-park-finder.PNG)
 ## Software Requirements Specification
 ### Functional requirements
-<<<<<<< Updated upstream
+
 * FR1: The system shall provide a menu of available options.
 * FR2: The system shall request permission to access map webpage. 
 * FR3: The system shall get data of car park locations from database.
@@ -81,7 +81,7 @@ TODO: Your Use-Case diagram should include all use-cases.
 * FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
 
 ### Non-Functional Requirements
-* NFR1 – should accurately show the car park on the map ((functionality) (from UC1 and UC2 and UC3)
+* NFR1 – should accurately show the car park on the map (functionality) (from UC1 and UC2 and UC3)
 * NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2 and UC3)
 * NFR3 – auto refresh to allow hands free use while driving(useability) (from UC1 and UC2 and UC3)
 * NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2 and UC3)
