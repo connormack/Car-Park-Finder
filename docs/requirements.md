@@ -69,11 +69,11 @@ TODO: Your Use-Case diagram should include all use-cases.
 * FR1: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
 * FR2: The system must request the user to input the desired postcode. (from UC1)
 * FR3: The system must, upon recieving the postcode, get the nearest car park from the database. (from UC1)
-* FR4: The system shall request permission to access map webpage. (from UC2) 
-* FR5: The system shall get data of car park locations from database. (from UC1 and UC2)
-* FR6: The system shall show a map with the car park locations pinpointed. (from UC2)
+* FR4: The system shall request permission to access map webpage. (from UC2 and UC3) 
+* FR5: The system shall get data of car park locations from database. (from UC1 and UC2 and UC3)
+* FR6: The system shall show a map with the car park locations pinpointed. (from UC2 and UC3)
 * FR7: The system must, if the user desires, display five other nearest car parks to the desired postcode. (from UC1)
-* FR8: The system could display all the car park in the database in a table in the menu page. (from UC1)
+* FR8: The system could display all the car park in the database in a table in the menu page. (from UC1 and UC3)
 * FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
 
 ### Non-Functional Requirements
@@ -83,4 +83,6 @@ TODO: Your Use-Case diagram should include all use-cases.
 * NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2 and UC3)
 * NFR5 – default location set to UWE as a zero point (maintainability) (from UC1 and UC2 and UC3)
 * NFR6 – runs on IOS and android to allow mobile access(portability) (from UC1 and UC2 and UC3)
+* NFR7 - display a welcome screen(understandability) (from UC3)
+* NRF8 - present option to set range in distance for the user (configurability) (from UC3)
 
