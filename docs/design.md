@@ -1,8 +1,8 @@
 # Design
 
 ## Behavioural design
-TODO: Describe a concrete scenario for each use-case. 
-Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.
+UC1: A motorist in Bristol wants to enter his postcode into the application and view the information of the nearest car park. 
+![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequenceDiagramUC1.png)
 
 UC2: A motorist wants to enter a particular location into the app and have the closest car park shown to them on a map.
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/Sequence-Diagram-UC2.png)
