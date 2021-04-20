@@ -67,7 +67,7 @@ TODO: Your Use-Case diagram should include all use-cases.
 ### Functional requirements
 
 * FR1: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
-* FR2: The system must request the user to input the desired postcode. (from UC1)
+* FR2: The system must request the user to input the desired postcode. (from UC1 and UC3)
 * FR3: The system must, upon recieving the postcode, get the nearest car park from the database. (from UC1)
 * FR4: The system shall request permission to access map webpage. (from UC2 and UC3) 
 * FR5: The system shall get data of car park locations from database. (from UC1 and UC2 and UC3)
