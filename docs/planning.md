@@ -4,6 +4,7 @@
 
 ### Problem statement
 Team UML aims to develop a way for citizens and visitors to easily find somewhere to park their vehicles quickly and efficiently. The Car Park Locator application is the realization of this goal, it is a simple way for its users to find the closest car park to them or a desired location.
+Team UML aims to develop a way for citizens and visitors to easily find somewhere to park their vehicles quickly and efficiently. The Car Park Locator application is the realization of this goal, it is a simple way for its users to find the closest car park to them or a desired location. The targetted user for this application is any motorist looking for a car park to park their car in Bristol. Motorist refers to any person or group of people, driving a vehicle suitable to park in the car parks acessed by the application.
 
 ### Business benefits
 The Car Park locator application is for anyone who wants to find a car park at a specific location. This could be anyone either inside or outside of Bristol, who needed the information now or in the future. Beneficial information that will be included in the application will be car park type, number of spaces and operating times. 
