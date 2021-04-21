@@ -23,7 +23,7 @@ Motorist
 | **Actors** | Motorist |
 | **Assumptions** | The user will chose the nearest car park |
 | **Steps** | <ol><li>Opt to find the nearest car park</li><li>Request user to enter their postcode</li><li>Enter the postcode in the allocated space (upon requested) </li><li>Get the nearest car park from the database</li><li>View the location of the nearest car park</li></ol> |
-| **Variations** | The user will prefer to consider relevant options before choosing. In this case the steps are :-<ol><li>Opt to find the nearest car park near me</li><li>Request the user to enter their postcode</li><li>Enter the postcode in the allocated space (upon requested)</li><li>Get the nearest car park from the database</li><li>Click on the _'view other car parks near me'_ button</li><li>Display five other nearest car parks in a table in ascending order of their distance from the user's postcode input</li></ol> |
+| **Variations** | The user will prefer to consider relevant options before choosing. In this case the steps are :-<ol><li>Steps 1-4 are the same as the default method and have been ommited for clarity</li><li>Click on the _'view other car parks near me'_ button</li><li>Display five other nearest car parks in a table in ascending order of their distance from the user's postcode input</li></ol> |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
@@ -47,20 +47,7 @@ Motorist
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-<<<<<<< Updated upstream
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
-| -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-=======
->>>>>>> Stashed changes
-TODO: Your Use-Case diagram should include all use-cases.
 
 ![User Case Diagram](images/UCD-car-park-finder.PNG)
 ## Software Requirements Specification
