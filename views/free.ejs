@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+  <head>
+    <title>Car Park Finder</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <style>
+        .grid-container {
+  display: grid;
+  grid-template-areas:
+    'ph ph ph ph ph'
+    'ln cn cn cn cn'
+    'pf pf pf pf pf';
+}
+
+#page-header {
+  grid-area: ph;
+  padding:20px 10px;
+  text-align:Center;
+}
+
+#local-navigation {
+  grid-area: ln;
+}
+
+#contextual-navigation {
+  grid-area: cn;
+}
+
+.heading { font-family:sans-serif; font-size:x-large; }  
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div id="page-header">
+        <span class="heading">Car Park Finder</span>
+      </div>
+      <div id=local-navigation>
+        <button onclick = "location.href = 'map.html?type=Bristol%20Car%20Park%20Map';" class="w3-btn w3-blue w3-block w3-border w3-border-white">Bristol Cap Park Map</button>
+        <button onclick = "location.href = 'type.html?type=Find%20type'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
+        <button onclick = "location.href = 'location.html?type=Find%20by%20location'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find by location</button>
+    </div>
+      <div id="contextual-navigation">
+        <div class ="w3-bar w3-ripple">
+            <button  onclick = "location.href = 'paid.html?type=Paid'" class = "w3-border w3-border-white w3-bar-item">Paid</button>
+            <button onclick = "location.href = 'free.html?type=Free'" class = "w3-border w3-border-white w3-bar-item">Free</button>
+            </div>
+
+            <table class ="w3-table w3-striped w3-bordered w3-border w3-centered">
+                <tr class="w3-green"><th>Name</th> <th>Car Park Type</th><th> Location</th></tr>
+                <tr><td>Free Car Park Bristol Queen Bob Street</td> <td>Free</td><td>Bob St, Bristol BS1 3ES</td></tr>
+                <tr><td>Free Car Park Bristol Queen Bob Street</td> <td>Free</td><td>Bob St, Bristol BS1 3ES</td></tr>
+            </table>
+      </div>
+    </div>
+  </body>
+</html>
