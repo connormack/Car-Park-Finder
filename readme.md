@@ -5,7 +5,7 @@ This App allows motorists to find nearby car parks.  Motorist refers to any pers
 Individual Contribution
 * UC1: Find the nearest car park - Dikshyanta Uprety
 * UC2: Find a car park on a map - Connor Mackintosh
-* UC3: Select car park type - Jeno Labodi
+* UC3: Find nearest free car park - Jeno Labodi
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
