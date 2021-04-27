@@ -15,7 +15,7 @@ Motorist
 ### Use Cases
 * UC1: Find the nearest car park
 * UC2: Find a car park on a map
-* UC3: Find nearest free car park
+* UC3: Select car park type
 
 | USE-CASE | UC1: Find the nearest car park | 
 | -------- | ------------------------------ |
@@ -37,7 +37,7 @@ Motorist
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-|USE-CASE | UC3: Find nearest free car park | 
+|USE-CASE | UC3: Select car park type | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge |
 | **Actors** | Motorist |

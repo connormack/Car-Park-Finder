@@ -2,8 +2,8 @@ var express = require("express");
 const mysql = require ('mysql');
 const conf = require('./conf.json');
 
-const QUERY = "SELECT * FROM `car-parks1` where `Type of car park` = ? ";
-const QUERY1 = "SELECT * FROM `car-parks1`"
+const QUERY = "SELECT * FROM `car-parks` where `Type of car park` = ? ";
+const QUERY1 = "SELECT * FROM `car-parks`"
 
 var app = express();
 
