@@ -29,7 +29,7 @@ Motorist
 
 |USE-CASE | UC 2:  Find a car park on a map | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a motorist I want to find carpark on a map |
+| **Description** | As a motorist I want to find car park on a map |
 | **Actors** | Motorist |
 | **Assumptions** | Browser has internet connectivity</td></tr>
 | **Steps** | <ol><li>Opt to view a map of Bristol.</li><li>Request permission to access webpage of said map.</li><li>Give permission for webpage access.</li><li>Find the cap park in the desired database, data received from database.</li><li>View the car park at the desired location on the map.</li><ol>|
