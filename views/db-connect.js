@@ -1,7 +1,7 @@
 const mysql = require ('mysql');
 // const QUERY = "SELECT * FROM `car-parks1` where `Type of car park` = 'free';";
 
-const QUERY = "SELECT * FROM `car-parks` where `Type of car park` = ? ";
+const QUERY = "SELECT * FROM `car-parks1` where `Type of car park` = ? ";
 
 var connection = mysql.createConnection({
     "host"     : "localhost",

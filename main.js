@@ -1,14 +1,19 @@
 var express = require("express");
 const mysql = require ('mysql');
 const conf = require('./conf.json');
+process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
-const QUERY = "SELECT * FROM `car-parks` where `Type of car park` = ? ";
-const QUERY1 = "SELECT * FROM `car-parks`"
+const QUERY = "SELECT * FROM `car-parks1` where `Type of car park` = ? ";
+const QUERY1 = "SELECT * FROM `car-parks1`"
 
 var app = express();
 
 app.set("view engine" , "ejs");
 app.use(express.static('static'));
+
+app.get("/index%20copy.html",function(request,response){
+    response.render("index");
+});
 
 app.get("/index.html",function(request,response){
     response.render("index");
@@ -56,7 +61,7 @@ app.get("/type.html",function(request,response){
 
 });
 
-var connection = mysql.createConnection(conf.db);
+var connection = mysql.createConnection(conf[process.env.NODE_ENV].db);
 
 connection.connect(function(err){
 	if (err) {
@@ -66,6 +71,10 @@ connection.connect(function(err){
 	}
 });
 
-
-app.listen(conf.port);
-console.log("Server running on http://localhost:%s", conf.port);
+if(process.env.NODE_ENV!='test'){
+app.listen(conf[process.env.NODE_ENV].port);
+//console.log("Server running on port %s,", conf[process.env.NODE_ENV].port);
+console.log("Server running on http://localhost:%s", conf[process.env.NODE_ENV].port);
+}
+exports.app = app;
+exports.connection = connection;

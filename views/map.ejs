@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html lang="en"></html>
 <html>
-
-  <head>
-    <title>Car Park Finder</title>
-    <link rel="stylesheet"   
-     href="https://www.w3schools.com/w3css/4/w3.css">
-      <!-- css and js libraries for leaflet maps -->
-     <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
-     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script> -->
-    <!--Link to CSS stylesheet-->
-    <link rel="stylesheet" href="/style.CSS">
-  </head>
+<%- include("templates/head.ejs"); %>
+<%- include("templates/header.ejs"); %>
   <body>
     <div class="grid-container">
-      <div id="page-header">
-        <span class="heading">Car Park Finder</span>
-      </div>
-      <div id=local-navigation>
-        <button onclick = "location.href = 'map.html?type=Bristol%20Car%20Park%20Map';" class="w3-btn w3-blue w3-block w3-border w3-border-white">Bristol Cap Park Map</button>
-        <button onclick = "location.href = 'type.html?type=Find%20type'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
-        <button onclick = "location.href = 'location.html?type=Find%20by%20location'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find by location</button>
-    </div>
-      <div id="contextual-navigation">
-        <image class ="map" src = "map.png"></image>
-        
-      </div>
+      <!-- < %- include("templates/header.ejs"); %> -->
+        <%- include("templates/nav.ejs"); %>
+          <main>
+            <div id="mapid"></div>
+            <script>
+              const MAP_ZOOM = 16;
+
+              // initialise map. See https://leafletjs.com
+              // set the map size in CSS
+              var map = L.map('mapid');
+              // var lat = 51.454514, lon = -2.587910;
+              //map.setView([< %= lat %>, < %= lon %>], MAP_ZOOM);
+              map.setView([51.454514,-2.587910], MAP_ZOOM);
+              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              }).addTo(map);
+
+              var marker;
+              <% for (var i = 0; i < rows.length; i++) { %>
+
+              marker = L.marker([<%= rows[i].geo_point_2d %> ]);
+              marker.addTo(map);
+              marker.bindPopup("<%= rows[i]['Car park name'] %>");
+              // marker.bindPopup("< %= rows[i]['Area name'] %>");
+              // marker.bindPopup("< %= rows[i]['Operating times'] %>");
+              // marker.bindPopup("< %= rows[i]['Type of car park'] %>");
+              
+              <% } %>
+            </script>
+          </main>
     </div>
   </body>
+
 </html>
