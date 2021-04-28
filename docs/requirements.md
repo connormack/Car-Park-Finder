@@ -3,7 +3,10 @@
 ## User Needs
 
 ### Actors
-Motorist
+Motorist, driver of a vehicle who uses the application to discover car parks within Bristol. This actor's main goal is to locate the suitable type of parking space through the application to park the vehicle.
+
+
+motorist looking for a car park to park their car in Bristol. Motorist refers to any person or group of people, driving a vehicle suitable to park in the car parks acessed by the application.
 
 ### User stories
 * As a motorist in Bristol, I want to find the nearest car park so that I can park my car.
