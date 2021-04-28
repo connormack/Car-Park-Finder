@@ -15,7 +15,7 @@ Motorist
 ### Use Cases
 * UC1: Find the nearest car park
 * UC2: Find a car park on a map
-* UC3: Select car park type
+* UC3: Find nearest free car par
 
 | USE-CASE | UC1: Find the nearest car park | 
 | -------- | ------------------------------ |
