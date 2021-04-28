@@ -3,7 +3,7 @@
 ## User Needs
 
 ### Actors
-Motorist
+Motorist, driver of a vehicle who uses the application to discover car parks within Bristol. This actor's main goal is to locate the suitable type of parking space through the application to park the vehicle.
 
 ### User stories
 * As a motorist in Bristol, I want to find the nearest car park so that I can park my car.
@@ -15,7 +15,7 @@ Motorist
 ### Use Cases
 * UC1: Find the nearest car park
 * UC2: Find a car park on a map
-* UC3: Select car park type
+* UC3: Find nearest free car par
 
 | USE-CASE | UC1: Find the nearest car park | 
 | -------- | ------------------------------ |
@@ -29,7 +29,7 @@ Motorist
 
 |USE-CASE | UC 2:  Find a car park on a map | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a motorist I want to find carpark on a map |
+| **Description** | As a motorist I want to find car park on a map |
 | **Actors** | Motorist |
 | **Assumptions** | Browser has internet connectivity</td></tr>
 | **Steps** | <ol><li>Opt to view a map of Bristol.</li><li>Request permission to access webpage of said map.</li><li>Give permission for webpage access.</li><li>Find the cap park in the desired database, data received from database.</li><li>View the car park at the desired location on the map.</li><ol>|
@@ -37,7 +37,7 @@ Motorist
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-|USE-CASE | UC3: Find nearest free car par | 
+|USE-CASE | UC3: Find nearest free car park | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge |
 | **Actors** | Motorist |
