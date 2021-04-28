@@ -1,0 +1,25 @@
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "description": "CarParkFinder",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ConnorMack",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "mysql": "^2.18.1",
+    "save-dev": "0.0.1-security"
+  },
+  "devDependecies":{
+    "mocha:":"^8.3.2"
+  },
+  "directories":{
+    "test":"test"
+  }
+  }
+  
