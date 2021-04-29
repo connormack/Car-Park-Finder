@@ -4,7 +4,8 @@
   "description": "CarParkFinder",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "testcafe":"testcafe chrome e2e"
   },
   "author": "ConnorMack",
   "license": "ISC",

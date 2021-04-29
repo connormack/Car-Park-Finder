@@ -52,11 +52,11 @@ app.get("/type.html",function(request,response){
         response.render("type",{'rows' : rows });
     });
 
-    connection.query(QUERY1, [request.query.Paid], function(err, rows, fields) {
-        if (err) throw err;
+    // connection.query(QUERY1, [request.query.Paid], function(err, rows, fields) {
+    //     if (err) throw err;
         
-        response.render("paid",{'rows' : rows });
-    });
+    //     response.render("paid",{'rows' : rows });
+    // });
 
 
 });

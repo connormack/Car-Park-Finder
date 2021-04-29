@@ -27,12 +27,9 @@
               marker = L.marker([<%= rows[i].geo_point_2d %> ]);
               marker.addTo(map);
               marker.bindPopup("<%= rows[i]['Car park name'] %>");
-              // marker.bindPopup("< %= rows[i]['Area name'] %>");
-              // marker.bindPopup("< %= rows[i]['Operating times'] %>");
-              // marker.bindPopup("< %= rows[i]['Type of car park'] %>");
-              
               <% } %>
             </script>
+            <input type="hidden" id="markerCount" value="<%= rows.length %>">
           </main>
     </div>
   </body>
