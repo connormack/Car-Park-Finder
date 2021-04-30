@@ -3,8 +3,9 @@ const mysql = require ('mysql');
 const conf = require('./conf.json');
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
-const QUERY = "SELECT * FROM `car-parks1` where `Type of car park` = ? ";
-const QUERY1 = "SELECT * FROM `car-parks1`"
+const QUERY = "SELECT * FROM `car-parks` where `Type of car park` = ? ";
+const QUERY1 = "SELECT * FROM `car-parks`";
+const QUERY2= "SELECT * FROM `car-parks` where `Area Name` = ? ";
 
 var app = express();
 
@@ -12,6 +13,10 @@ app.set("view engine" , "ejs");
 app.use(express.static('static'));
 
 app.get("/index%20copy.html",function(request,response){
+    response.render("index");
+});
+
+app.get("/",function(request,response){
     response.render("index");
 });
 
@@ -58,8 +63,16 @@ app.get("/type.html",function(request,response){
     //     response.render("paid",{'rows' : rows });
     // });
 
-
 });
+
+
+app.get("/trial.html",function(request,response){
+    connection.query(QUERY2, [request.query.option], function(err, rows, fields) {
+        if (err) throw err;
+        response.render("trial",{'rows':rows});
+    });
+});
+
 
 var connection = mysql.createConnection(conf[process.env.NODE_ENV].db);
 
