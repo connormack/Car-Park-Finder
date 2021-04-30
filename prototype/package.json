@@ -4,12 +4,8 @@
   "description": "CarParkFinder",
   "main": "index.js",
   "scripts": {
-<<<<<<< Updated upstream
     "test": "mocha",
     "testcafe":"testcafe chrome e2e"
-=======
-    "dev": "nodemon main.js"
->>>>>>> Stashed changes
   },
   "author": "ConnorMack",
   "license": "ISC",
