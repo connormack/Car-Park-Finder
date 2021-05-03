@@ -5,7 +5,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 const QUERY = "SELECT * FROM `car-parks` where `Type of car park` = ? ";
 const QUERY1 = "SELECT * FROM `car-parks` order by `Car park name` ";
-const QUERY2= "SELECT * FROM `car-parks` where `Area Name` = ? ";
+const QUERY2= "SELECT * FROM `car-parks` where `Area Name` = ? order by `Car park name` ";
 
 var app = express();
 
