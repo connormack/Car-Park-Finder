@@ -6,26 +6,26 @@
 Motorist, driver of a vehicle who uses the application to discover car parks within Bristol. This actor's main goal is to locate the suitable type of parking space through the application to park the vehicle.
 
 ### User stories
-* As a motorist in Bristol, I want to find the nearest car park so that I can park my car.
+* As a motorist in Bristol, I want to view car parks in a chosen area, so that I can choose a suitable one for me.
 * As a motorist I want to find carpark on a map
 * As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge.
 
 
 
 ### Use Cases
-* UC1: Find the nearest car park
+* UC1: View all the car parks in a chosen area of Bristol, in a table.
 * UC2: Find a car park on a map
 * UC3: Find nearest free car par
 
-| USE-CASE | UC1: Find the nearest car park | 
+| USE-CASE | UC1: View all the car parks in a chosen area of Bristol, in a table | 
 | -------- | ------------------------------ |
-| **Description** | As a motorist in Bristol, I want to find the nearest car park so that I can park my car |
+| **Description** | As a motorist in Bristol, I want to view all the car parks in a chosen area, so that I can choose a suitable one to park my car. |
 | **Actors** | Motorist |
-| **Assumptions** | The user will chose the nearest car park |
-| **Steps** | <ol><li>Opt to find the nearest car park</li><li>Request user to enter their postcode</li><li>Enter the postcode in the allocated space (upon requested) </li><li>Get the nearest car park from the database</li><li>View the location of the nearest car park</li></ol> |
-| **Variations** | The user will prefer to consider relevant options before choosing. In this case the steps are :-<ol><li>Steps 1-4 are the same as the default method and have been ommited for clarity</li><li>Click on the _'view other car parks near me'_ button</li><li>Display five other nearest car parks in a table in ascending order of their distance from the user's postcode input</li></ol> |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Assumptions** | The user will want to view the car parks of a certain area |
+| **Steps** | <ol><li>Opt to find the nearest car park</li><li>Request user to choose their desired area from a dropdown list</li><li>Choose the area (upon requested) </li><li>Get all the car parks in the area from the database</li><li>View the information about the car parks in a table</li></ol> |
+| **Variations** | The user wants to view all car parks in Bristol. In this case the steps are :-<ol><li>Opt to view the information about all car parks in Bristol</li>Click on the _'All Car Parks in Bristol'_ button</li><li>Display the information about all the car parks in a table.</li></ol> |
+| **Non-functional** | Listed below, at the end of all use cases for the project. |
+| **Issues** | None |
 
 |USE-CASE | UC 2:  Find a car park on a map | 
 | -------------------------------------- | ------------------- |
@@ -54,22 +54,21 @@ Motorist, driver of a vehicle who uses the application to discover car parks wit
 ### Functional requirements
 
 * FR1: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
-* FR2: The system must request the user to input the desired postcode. (from UC1 and UC3)
-* FR3: The system must, upon recieving the postcode, get the nearest car park from the database. (from UC1)
+* FR2: The system must request the user to input the desired area. (from UC1)
+* FR3: The system must, upon recieving the area, get the car parks in the area from the database. (from UC1)
 * FR4: The system shall request permission to access map webpage. (from UC2 and UC3) 
 * FR5: The system shall get data of car park locations from database. (from UC1 and UC2 and UC3)
 * FR6: The system shall show a map with the car park locations pinpointed. (from UC2 and UC3)
-* FR7: The system must, if the user desires, display five other nearest car parks to the desired postcode. (from UC1)
-* FR8: The system could display all the car park in the database in a table in the menu page. (from UC1 and UC3)
+* FR7: The system must, if the user desires, display all the car parks in Bristol (in the database). (from UC1)
+* FR8: The system could use the user's postcode to locate the area. (from UC1 and UC3)
 * FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
 
 ### Non-Functional Requirements
-* NFR1 – should accurately show the car park on the map (functionality) (from UC1 and UC2 and UC3)
+* NFR1 – should accurately show the car park on the map (functionality) (from UC2 and UC3)
 * NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2 and UC3)
-* NFR3 – auto refresh to allow hands free use while driving(useability) (from UC1 and UC2 and UC3)
-* NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC1 and UC2 and UC3)
-* NFR5 – default location set to UWE as a zero point (maintainability) (from UC1 and UC2 and UC3)
-* NFR6 – runs on IOS and android to allow mobile access(portability) (from UC1 and UC2 and UC3)
-* NFR7 - display a welcome screen(understandability) (from UC3)
-* NRF8 - present option to set range in distance for the user (configurability) (from UC3)
+* NFR3 – auto refresh to allow up-to-date information(useability) (from UC1 and UC2 and UC3)
+* NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC2 and UC3)
+* NFR5 – default location set to UWE as a zero point (maintainability) (from UC2 and UC3)
+* NFR6 - display a welcome screen(understandability) (from UC1, UC2 and UC3)
+
 

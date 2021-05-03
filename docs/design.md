@@ -1,7 +1,7 @@
 # Design
 
 ## Behavioural design
-UC1: A motorist in Bristol wants to enter their postcode into the application and view the nearest car parks on a table. 
+UC1: A motorist wants to view all the car parks in a desired area in Bristol, in a table. 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequenceDiagramUC1.png)
 
 UC2: A motorist wants to find all the car parks in Bristol shown to them on a map.
@@ -11,8 +11,8 @@ UC3: A motorist wants to get information about car parks nearby, free of charge 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/SequenceDiagramUC3.png)
 
 ## User Interface design
-UC1: A motorist in Bristol wants to enter their postcode into the application and view the nearest car parks on a table. 
-![Insert your wireframe screenshots for each use-case here](images/duprety_wireframe.png)
+UC1: A motorist wants to view all the car parks in a desired area in Bristol, in a table. Alternatively, the user wants to view information about all car parks in Bristol.
+![Insert your wireframe screenshots for each use-case here](images/uc1wireframe.png)
 
 
 
