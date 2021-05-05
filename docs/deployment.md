@@ -8,7 +8,8 @@ Describe the deployment of software components to hardware nodes using a UML Dep
 ![Insert Deployment diagram here](images/deployment.png)
 
 # User guide
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
 
-![Insert screenshots here](images/screenshot.png)
+UC2: As a motorist I want to find car park on a map.
+
+![Insert screenshots here](images/splash.png)
 TODO: Repeat as necessary
