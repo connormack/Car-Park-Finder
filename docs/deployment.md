@@ -13,7 +13,7 @@ UC2: As a motorist I want to find car park on a map.
 
 ![Insert screenshots here](images/splash.PNG)
 
-(images/ClickToMap.png)
+![Insert screenshots here](images/ClickToMap.png)
 
-(images/MapDisplay.png)
+![Insert screenshots here](images/MapDisplay.png)
 TODO: Repeat as necessary
