@@ -9,5 +9,8 @@ Create a requirements traceability matrix to validate the completeness of the pr
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
+| ----------- | -------------- | --------- | ------ |
+| ----------- | -------------- | --------- | ------ |
+| ----------- | -------------- | --------- | ------ |
 
 TODO: Add rows for each test, current status is eg. pass/fail
