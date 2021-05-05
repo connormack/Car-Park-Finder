@@ -12,4 +12,8 @@ Describe the deployment of software components to hardware nodes using a UML Dep
 UC2: As a motorist I want to find car park on a map.
 
 ![Insert screenshots here](images/splash.PNG)
+
+(images/ClickToMap.png)
+
+(images/MapDisplay.png)
 TODO: Repeat as necessary
