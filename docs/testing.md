@@ -11,6 +11,6 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | testUC1 | -------------- | --------- | ------ |
 | testUC2 | -------------- | --------- | ------ |
 | testUC3 | -------------- | --------- | ------ |
-| ----------- | -------------- | --------- | ------ |
+| ------- | -------------- | --------- | ------ |
 
 TODO: Add rows for each test, current status is eg. pass/fail
