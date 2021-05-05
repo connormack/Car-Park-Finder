@@ -5,7 +5,7 @@ TODO: Describe the current version of the system (with version number. Include s
 Are there any known issues? Provide the URL of the deployed system. 
 Describe the deployment of software components to hardware nodes using a UML Deployment diagram.
 
-![Insert Deployment diagram here](images/Deployment Diagram.png)
+![Insert Deployment diagram here](images/DeploymentDiagram.png)
 
 # User guide
 
