@@ -7,6 +7,8 @@ Describe the deployment of software components to hardware nodes using a UML Dep
 
 v1.0-alpha
 
+http://localhost:8080/
+
 ![Insert Deployment diagram here](images/DeploymentDiagram.png)
 
 # User guide
