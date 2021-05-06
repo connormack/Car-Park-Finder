@@ -12,6 +12,11 @@ var app = express();
 app.set("view engine" , "ejs");
 app.use(express.static('static'));
 
+//Function for error message
+function internalServerError(response, err) {
+    response.status(500);
+    response.send(err);
+}
 //callback function for splash page request handler
 function splash(request, response) {
     response.render("index");
@@ -67,14 +72,14 @@ app.get("/type.html",function(request,response){
 
 app.get("/table.html",function(request,response){
     connection.query(QUERY2, [request.query.option], function(err, rows, fields) {
-        if (err) throw err;
+        if (err) internalServerError(response, err) ;
         response.render("table",{'rows':rows});
     });
 });
 
 app.get("/showall.html", function(request, response){
     connection.query(QUERY1, [request.query], function(err, rows, fields) {
-        if (err) throw err;
+        if (err) internalServerError(response, err);
         response.render("showall", {"rows": rows});
     });
 });

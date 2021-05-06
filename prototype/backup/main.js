@@ -160,3 +160,4 @@ console.log("Server running on http://localhost:%s", conf[process.env.NODE_ENV].
 exports.app = app;
 >>>>>>> 5ddbc35425df6d9bf8f8ad697a3a1ea5114668c2:main.js
 exports.connection = connection;
+exports.internalServerError = internalServerError;
