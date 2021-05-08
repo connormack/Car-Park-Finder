@@ -7,6 +7,8 @@ Test Runs
 TODO: For each test described above, indicate the current status. 
 Create a requirements traceability matrix to validate the completeness of the product.
 
+T2: E2E test - testing the correct amount of car parks (57) displayed on the map.  
+
 | Use-Case ID | Requirement ID | Test Case | Status |
 |  ------ | -------------- | --------- | ------ |
 | testUC1 | -------------- | --------- | ------ |
