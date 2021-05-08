@@ -4,7 +4,7 @@
             "host": "localhost",
             "user": "root",
             "password": "root",
-            "database": "isd"
+            "database": "isd1"
         },
         "port": 8080
     },
@@ -13,7 +13,7 @@
             "host": "localhost",
             "user": "root",
             "password": "root",
-            "database": "isd"
+            "database": "isd1"
         },
         "port": 8000
     }
