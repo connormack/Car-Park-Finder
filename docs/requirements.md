@@ -3,23 +3,23 @@
 ## User Needs
 
 ### Actors
-Motorist, driver of a vehicle who uses the application to discover car parks within Bristol. This actor's main goal is to locate the suitable type of parking space through the application to park the vehicle.
+Motorist, driver of a car who uses the application to discover car parks within Bristol. This actor's main goal is to locate the suitable type of parking space through the application to park the car.
 
 ### User stories
-* As a motorist in Bristol, I want to view car parks in a chosen area, so that I can choose a suitable one for me.
+* As a motorist in Bristol, I want to view car parks in a chosen area or all car parks in Bristol, so that I can choose a suitable one for me.
 * As a motorist I want to find carpark on a map
 * As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge.
 
 
 
 ### Use Cases
-* UC1: View all the car parks in a chosen area of Bristol, in a table.
+* UC1: View the information of all the car parks in a chosen area of Bristol. Otherwise, view the information of all car parks in Bristol.
 * UC2: Find a car park on a map
-* UC3: Find nearest free car par
+* UC3: Find nearest free car park
 
-| USE-CASE | UC1: View all the car parks in a chosen area of Bristol, in a table | 
+| USE-CASE | UC1: View all the car parks in a chosen area of Bristol. Otherwise, view the information of all car parks in Bristol. | 
 | -------- | ------------------------------ |
-| **Description** | As a motorist in Bristol, I want to view all the car parks in a chosen area, so that I can choose a suitable one to park my car. |
+| **Description** | As a motorist in Bristol, I want to view all the car parks in a chosen area or all car parks in Bristol, so that I can choose one for me. |
 | **Actors** | Motorist |
 | **Assumptions** | The user will want to view the car parks of a certain area |
 | **Steps** | <ol><li>Opt to find the nearest car park</li><li>Request user to choose their desired area from a dropdown list</li><li>Choose the area (upon requested) </li><li>Get all the car parks in the area from the database</li><li>View the information about the car parks in a table</li></ol> |
@@ -55,7 +55,7 @@ Motorist, driver of a vehicle who uses the application to discover car parks wit
 
 * FR1: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
 * FR2: The system must request the user to input the desired area. (from UC1)
-* FR3: The system must, upon recieving the area, get the car parks in the area from the database. (from UC1)
+* FR3: The system must, upon recieving the area, display the information about the car parks in the area from the database. (from UC1)
 * FR4: The system shall request permission to access map webpage. (from UC2 and UC3) 
 * FR5: The system shall get data of car park locations from database. (from UC1 and UC2 and UC3)
 * FR6: The system shall show a map with the car park locations pinpointed. (from UC2 and UC3)
@@ -64,7 +64,7 @@ Motorist, driver of a vehicle who uses the application to discover car parks wit
 * FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
 
 ### Non-Functional Requirements
-* NFR1 – should accurately show the car park on the map (functionality) (from UC2 and UC3)
+* NFR1 – should accurately show car parks on the map (functionality) (from UC2 and UC3)
 * NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2 and UC3)
 * NFR3 – auto refresh to allow up-to-date information(useability) (from UC1 and UC2 and UC3)
 * NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC2 and UC3)
