@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "testcafe": "testcafe chrome e2e"
-
+    "testcafe": "testcafe chrome e2e",
+    "start": "node main.js"
   },
   "author": "ConnorMack",
   "license": "ISC",
@@ -14,7 +14,8 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
-    "save-dev": "0.0.1-security"
+    "save-dev": "0.0.1-security",
+    "tree-cli": "^0.6.7"
   },
   "devDependecies": {
     "mocha:": "^8.3.2"
@@ -22,8 +23,12 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "14.15.4"
+  },
   "devDependencies": {
     "mocha": "^8.3.2",
+    "nodemon": "^2.0.7",
     "testcafe": "^1.14.0"
   }
 }

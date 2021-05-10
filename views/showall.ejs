@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <%- include("templates/head.ejs"); %>
+  <%- include("templates/header.ejs"); %>
+  <body>
+    <div class="grid-container">
+      <%- include("templates/nav.ejs"); %>
+      <main>
+        <table class= "w3-table w3-striped w3-border">
+            <thead>
+                <tr><th>Name</th> <th>Type</th> <th>Area name<th></th><th>Spaces</th></tr>
+            </thead>
+            <tbody>
+               <% for (var i=0; i<rows.length; i++) { %>
+                <tr>
+                  <td><%=rows[i]["Car park name"]%></td>
+                   <td><%=rows[i]["Type of car park"]%></td>
+                   <td><%=rows[i]["Area name"]%></td>
+                   <td><%=rows[i]["Number of spaces"]%></td>
+    
+                </tr>
+                <% } %>
+            </tbody>
+
+        </table>
+      </main>
+    </div>
+      </div>
+
+    </div>
+  </body>
+

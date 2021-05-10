@@ -20,9 +20,9 @@
   
   #local-navigation {
     grid-area: ln;
-    background-color:rgba(109,139,166,0.7);
+    background-color:rgba(109,139,166,0.5);
   }
-
+  
   #contextual-navigation {
     grid-area: cn;
   }
@@ -58,9 +58,3 @@
   .heading { font-family:sans-serif; font-size:30px; }  
 
   #mapid { height: 750px; width:1000px }
-
-  .dropdown-content {
-    width: 100%;
-    overflow: auto;
-
-  }
