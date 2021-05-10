@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html lang="en"></html>
 <html>
   <head>
     <title>Car Park Finder</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <link rel="stylesheet"   
+     href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
     <!--Link to CSS stylesheet-->
     <link rel="stylesheet" href="/style.CSS">
+    <script>
+      function myFunction() {
+        var x = document.getElementById("Demo");
+        if (x.className.indexOf("w3-show") == -1) { 
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+        // Request user geolocation and callback with lat, lon
+        function getLocation(fun) {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (loc) {
+                    fun(loc.coords.latitude, loc.coords.longitude);
+                })
+            }
+            else {
+                alert("Geolocation is not supported by this browser.");
+                // location defaults to central Bristol
+                fun(51.454514, -2.587910);
+            }
+        }
+  
+        // Load page with lat, lon query string
+        function nearest(lat, lon) {
+            location.href = "nearestfree.html?lat=" + lat + "&lon=" + lon;
+        }
+        function nearer(lat, lon) {
+            location.href = "nearerfree.html?lat=" + lat + "&lon=" + lon;
+        }
+        function near(lat, lon) {
+            location.href = "nearfree.html?lat=" + lat + "&lon=" + lon;
+        }
+        
+    </script>
   </head>
   <body>
     <div class="grid-container">
@@ -16,20 +51,31 @@
       </div>
       <div id=local-navigation>
         <button onclick = "location.href = 'map.html?type=Bristol%20Car%20Park%20Map';" class="w3-btn w3-blue w3-block w3-border w3-border-white">Bristol Cap Park Map</button>
-        <button onclick = "location.href = 'type.html?type=Find%20type'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
+        <button onclick = "location.href = 'type.html?Type=Free'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
         <button onclick = "location.href = 'location.html?type=Find%20by%20location'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find by location</button>
     </div>
-      <div id="contextual-navigation">
-        <div class ="w3-bar w3-ripple">
-            <button  onclick = "location.href = 'paid.html?type=Paid'" class = "w3-border w3-border-white w3-bar-item">Paid</button>
-            <button onclick = "location.href = 'free.html?type=Free'" class = "w3-border w3-border-white w3-bar-item">Free</button>
-          </div>
 
-            <table class ="w3-table w3-striped w3-bordered w3-border w3-centered">
-                <tr class="w3-green"><th>Name</th> <th>Car Park Type</th><th> Location</th></tr>
-                <tr><td>Free Car Park Bristol Queen Bob Street</td> <td>Free</td><td>Bob St, Bristol BS1 3ES</td></tr>
-                <tr><td>Free Car Park Bristol Queen Bob Street</td> <td>Free</td><td>Bob St, Bristol BS1 3ES</td></tr>
-            </table>
+    <div id="contextual-navigation">
+      <div class ="w3-bar w3-ripple">
+        <div class="w3-dropdown-click">
+          <button id='find-nearest' onclick="myFunction()" class="w3-button w3-blue w3-border w3-border-white">Find Nearest</button>
+          <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+            <a id='nearest' onclick="getLocation(nearest)" type="submit" class="w3-bar-item w3-button">1 Nearest</a>
+            <a onclick="getLocation(nearer)" type="submit" class="w3-bar-item w3-button">3 Nearest</a>
+            <a onclick="getLocation(near)" type="submit" class="w3-bar-item w3-button">5 Nearest</a>
+          </div>
+        </div>
+        <button id='display-result-on-map' onclick = "location.href = 'mapfree.html'" class = "w3-btn w3-blue w3-border w3-border-white w3-bar-item">Display Result on Map</button>     
+      </div>
+            <table class="w3-table w3-striped w3-border"><body> 
+              <tr> <class="w3-green"><th>Name</th> <th>Car Park Type</th> <th>Area name<th></th></tr>
+                 <% for (var i=0; i<rows.length; i++) { %>
+                  <tr>
+                    <td><%=rows[i]["Car park name"]%></td>
+                     <td><%=rows[i]["Type of car park"]%></td>
+                     <td><%=rows[i]["Area name"]%></td>
+                  </tr>
+           <% } %>
       </div>
     </div>
   </body>

@@ -2,30 +2,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <%- include("templates/head.ejs"); %>
-  <%- include("templates/header.ejs"); %>
+  <head>
+    <title>Car Park Finder</title>
+    <link rel="stylesheet"   
+     href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+     <!--Link to CSS stylesheet-->
+     <link rel="stylesheet" href="/style.CSS">
+  </head>
   <body>
     <div class="grid-container">
-      <%- include("templates/nav.ejs"); %>
-      <main>
-
-    <form class="w3-container w3-border-white" action="table.html">
-      <select id= "dropdown-menu" class="w3-select w3-border" name="option" onchange="this.form.submit()">
-          <option value="" disabled selected>Select your Area</option>
-          <option value="Avonmouth">Avonmouth</option>
-          <option value="Bedminster">Bedminster</option>
-          <option value="Brislington">Brislington</option>
-          <option value="Broadmead">Broadmead</option>
-          <option value="Central Area">Central Area</option>
-          <option value="District Car Parks">District Car Parks</option>
-          <option value="Docks Estate Area">Docks Estate Area</option>
-          <option value="Long Ashton">Long Ashton</option>
-          <option value="Westend">Westend</option>
-      </select>
-  </form>
-  <button id="All-car-parks" onclick="location.href='showall.html';" class="w3-btn w3-green w3-block w3-border w3-border-white" style="height:50px; width:200px" >All Car Parks in Bristol</button>
-</main>
+      <div id="page-header">
+        <span class="heading">Car Park Finder</span>
       </div>
-
+      <div id=local-navigation>
+        <button onclick = "location.href = 'map.html?type=Bristol%20Car%20Park%20Map';" class="w3-btn w3-blue w3-block w3-border w3-border-white">Bristol Cap Park Map</button>
+        <button onclick = "location.href = 'type.html?Type=Free'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
+        <button onclick = "location.href = 'location.html?type=Find%20by%20location'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find by location</button>
+    </div>
+      <div id="contextual-navigation">
+        <div><input type="text" name="search" placeholder="Enter post code"></div> 
+        <hr>
+        <image class ="map" src = "locationSearch.png"></image>
+      </div>
+    </div>
   </body>
 

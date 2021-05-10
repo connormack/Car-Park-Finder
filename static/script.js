@@ -21,4 +21,4 @@ function loadMap(lat,lon,type) {
     else {
         location.href="map.html?lat="+lat+"&lon="+lon;
     }
-}
+} 
