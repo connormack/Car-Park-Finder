@@ -1,7 +1,7 @@
 # Design
 
 ## Behavioural design
-UC1: A motorist wants to view all the car parks in a desired area in Bristol, in a table. 
+UC1: A motorist wants to view the information of all the car parks in a desired area in Bristol. Otherwise, they want to view the information of all car parks in Bristol. 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequenceDiagramUC1.png)
 
 UC2: As a motorist I want to find a car park on a map.

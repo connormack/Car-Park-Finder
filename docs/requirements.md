@@ -3,7 +3,7 @@
 ## User Needs
 
 ### Actors
-Motorist, driver of a car who uses the application to discover car parks within Bristol. This actor's main goal is to locate the suitable type of parking space through the application to park the car.
+Motorist, driver of a car who uses the application to discover car parks within Bristol. This actor's main goal is to locate the suitable type of parking space through the application to park their car.
 
 ### User stories
 * As a motorist in Bristol, I want to view car parks in a chosen area or all car parks in Bristol, so that I can choose a suitable one for me.
@@ -53,20 +53,20 @@ Motorist, driver of a car who uses the application to discover car parks within 
 ## Software Requirements Specification
 ### Functional requirements
 
-* FR1: The system must provide a menu of available car parks. (from UC1 and UC2 and UC3)
+* FR1: The system must provide a menu of available car parks. (from UC2 and UC3)
 * FR2: The system must request the user to input the desired area. (from UC1)
 * FR3: The system must, upon recieving the area, display the information about the car parks in the area from the database. (from UC1)
 * FR4: The system shall request permission to access map webpage. (from UC2 and UC3) 
-* FR5: The system shall get data of car park locations from database. (from UC1 and UC2 and UC3)
+* FR5: The system shall get data of car park locations from database. (from UC2 and UC3)
 * FR6: The system shall show a map with the car park locations pinpointed. (from UC2 and UC3)
 * FR7: The system must, if the user desires, display all the car parks in Bristol (in the database). (from UC1)
 * FR8: The system could use the user's postcode to locate the area. (from UC1 and UC3)
-* FR9: The system will not use geolocation to locate the user and therefore, the nearest car park to the user. (from UC1)
+* FR9: The system will not use geolocation to locate the user and therefore, the area of the user to display car parks in that area. (from UC1)
 
 ### Non-Functional Requirements
 * NFR1 – should accurately show car parks on the map (functionality) (from UC2 and UC3)
 * NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2 and UC3)
-* NFR3 – auto refresh to allow up-to-date information(useability) (from UC1 and UC2 and UC3)
+* NFR3 – auto refresh to allow up-to-date information(useability) (from UC2 and UC3)
 * NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC2 and UC3)
 * NFR5 – default location set to UWE as a zero point (maintainability) (from UC2 and UC3)
 * NFR6 - display a welcome screen(understandability) (from UC1, UC2 and UC3)
