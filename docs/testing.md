@@ -23,7 +23,7 @@ T2: E2E test - testing the correct amount of car parks (57) displayed on the map
 | testUC1 |     FR7        | UC1T1     | Pass   |
 | testUC1 |  FR2 and FR3   | UC1T2     | Pass   |
 |  ------ | -------------- | --------- | ------ |
-| testUC2 |     FR6        |    T2     |  Pass  |
+| testUC2 |     FR6        |    uc2T1  |  Pass  |
 |  ------ | -------------- | --------- | ------ |
 | testUC3 | -------------- | --------- | ------ |
 
