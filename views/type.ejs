@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--EJS Template to display all the car parks as a table and allow user to filter results, representing the oprions of Free and Paid car parks - UC3 -->
 <html>
   <head>
     <title>Car Park Finder</title>
@@ -16,28 +17,26 @@
       </div>
       <div id=local-navigation>
         <button onclick = "location.href = 'map.html?type=Bristol%20Car%20Park%20Map';" class="w3-btn w3-blue w3-block w3-border w3-border-white">Bristol Cap Park Map</button>
-        <button onclick = "location.href = 'type.html?type=Find%20type'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
+        <button onclick = "location.href = 'type.html?Type=Free'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
         <button onclick = "location.href = 'location.html?type=Find%20by%20location'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find by location</button>
     </div>
 
       <div id="contextual-navigation">
-        <div class ="w3-bar w3-ripple">
-            <button  onclick = "location.href = 'type.html?Type=Paid'" class="w3-btn w3-blue w3-border w3-border-white w3-bar-item">Paid</button>
-            <button id ='Free' onclick = "location.href = 'type.html?Type=Free'" class = "w3-btn w3-blue w3-border w3-border-white w3-bar-item">Free</button>
-            </div>
+        <div class ="w3-bar w3-ripple bar">
+        <!--Clickable buttons to display either Paid or Free car parks, onclik event it takes the user to the appropriate EJS template and represents the corresponding type of car parks - UC3 -->
+            <button onclick = "location.href = 'paid.html';" class="w3-btn w3-blue w3-border w3-border-white w3-bar-item">Paid</button>
+            <button id="free" onclick = "location.href = 'free.html';" class = "w3-btn w3-blue w3-border w3-border-white w3-bar-item">Free</button>
+          </div>
 
-            <table><body> 
+            <table class="w3-table w3-striped w3-border"><body> 
               <tr> <class="w3-green"><th>Name</th> <th>Car Park Type</th> <th>Area name<th></th></tr>
-              <tbody>
                  <% for (var i=0; i<rows.length; i++) { %>
                   <tr>
                     <td><%=rows[i]["Car park name"]%></td>
-                     <td><%=rows[i]["Type of car park"]%></td>;
-                     <td><%=rows[i]["Area name"]%></td>;
+                     <td><%=rows[i]["Type of car park"]%></td>
+                     <td><%=rows[i]["Area name"]%></td>
                   </tr>
            <% } %>
-                </tbody>
-              </table>
       </div>
     </div>
   </body>

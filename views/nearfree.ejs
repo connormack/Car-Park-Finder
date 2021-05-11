@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!--EJS Template to display the paid car parks as a table - UC3 -->
-<html lang="en"></html>
+<!--EJS Template to display the 5 nearest free car parks as a table - UC3 -->
 <html>
   <head>
     <title>Car Park Finder</title>
@@ -11,7 +10,6 @@
     <!--Link to CSS stylesheet-->
     <link rel="stylesheet" href="/style.CSS">
     <script>
-      //Function of clickable dropdown menu that allows user to find the nearest paid car park - UC3
       function myFunction() {
         var x = document.getElementById("Demo");
         if (x.className.indexOf("w3-show") == -1) { 
@@ -33,21 +31,18 @@
                 fun(51.454514, -2.587910);
             }
         }
-        /* Functions that called on the click event of the options within the dropdown menu,
-        near: 5 nearest paid car park, nearer: 3 nearest paid car park, nearest: 1 nearest paid car park.
-        The click event takes the user to the appropriate EJS template and displays the corresponding number of 
-        paid car parks as a table - UC3 */
+  
         // Load page with lat, lon query string
         function nearest(lat, lon) {
-            location.href = "nearestpaid.html?lat=" + lat + "&lon=" + lon;
+            location.href = "nearestfree.html?lat=" + lat + "&lon=" + lon;
         }
         function nearer(lat, lon) {
-            location.href = "nearerpaid.html?lat=" + lat + "&lon=" + lon;
+            location.href = "nearerfree.html?lat=" + lat + "&lon=" + lon;
         }
         function near(lat, lon) {
-            location.href = "nearpaid.html?lat=" + lat + "&lon=" + lon;
+            location.href = "nearfree.html?lat=" + lat + "&lon=" + lon;
         }
-    </script>    
+    </script>
   </head>
   <body>
     <div class="grid-container">
@@ -58,20 +53,18 @@
         <button onclick = "location.href = 'map.html?type=Bristol%20Car%20Park%20Map';" class="w3-btn w3-blue w3-block w3-border w3-border-white">Bristol Cap Park Map</button>
         <button onclick = "location.href = 'type.html?Type=Free'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find type</button>
         <button onclick = "location.href = 'location.html?type=Find%20by%20location'" class="w3-btn w3-blue w3-block w3-border w3-border-white">Find by location</button>
-    </div>
+      </div>
+
       <div id="contextual-navigation">
         <div class ="w3-bar w3-ripple">
           <div class="w3-dropdown-click">
             <button onclick="myFunction()" class="w3-button w3-blue w3-border w3-border-white">Find Nearest</button>
             <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
-            <!-- Clickable options within the dropdown menu to call the appropriate function and display the desiered amount of paid car parks nearby - UC3 -->
               <a onclick="getLocation(nearest)" type="submit" class="w3-bar-item w3-button">1 Nearest</a>
               <a onclick="getLocation(nearer)" type="submit" class="w3-bar-item w3-button">3 Nearest</a>
               <a onclick="getLocation(near)" type="submit" class="w3-bar-item w3-button">5 Nearest</a>
             </div>
           </div>
-        <!--Clickable button to display all the paid car parks on the map - UC3 -->          
-          <button onclick = "location.href = 'mappaid.html'" class = "w3-btn w3-blue w3-border w3-border-white w3-bar-item">Display Result on Map</button> 
         </div>
 
             <table class="w3-table w3-striped w3-border"><body> 
