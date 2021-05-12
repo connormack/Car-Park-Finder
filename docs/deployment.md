@@ -25,17 +25,17 @@ In accordance with this use-case, the user can either view all car parks in a sp
 
 ![Insert screenshots here](images/splashPage.png)
 
-![Insert screenshots here](images/location(Area).PNG)
+![Insert screenshots here](images/location(Area).png)
 
-![Insert screenshots here](images/table(Area).PNG)
+![Insert screenshots here](images/table(Area).png)
 
 2) For viewing all car parks in Bristol
 
-![Insert screenshots here](images/splashPage.PNG)
+![Insert screenshots here](images/splashPage.png)
 
-![Insert screenshots here](images/location(All).PNG)
+![Insert screenshots here](images/location(All).png)
 
-![Insert screenshots here](images/table(All).PNG)
+![Insert screenshots here](images/table(All).png)
 
 UC2: As a motorist I want to find car park on a map.
 
