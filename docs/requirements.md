@@ -58,7 +58,7 @@ Motorist, driver of a car who uses the application to discover car parks within 
 * FR5: The system shall get data of car park locations from database. (from UC2 and UC3)
 * FR6: The system shall show a map with the car park locations pinpointed. (from UC2 and UC3)
 * FR7: The system must, if the user desires, display all the car parks in Bristol (in the database). (from UC1)
-* FR8: The system could use the user's postcode to locate the area. (from UC1 and UC3)
+* FR8: The system could use the user's postcode to locate the area. (from UC1)
 * FR9: The system will not use geolocation to locate the user and therefore, the area of the user to display car parks in that area. (from UC1)
 
 ### Non-Functional Requirements
