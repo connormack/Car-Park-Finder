@@ -1,9 +1,6 @@
 # Deployment
 
 ## Release Notes
-TODO: Describe the current version of the system (with version number. Include system dependencies ands software tools used.
-Are there any known issues? Provide the URL of the deployed system. 
-Describe the deployment of software components to hardware nodes using a UML Deployment diagram.
 
 The current version of the system is v1.0-alpha. The system dependencies are express, ejs, mysql, save-dev. The software tools used are save-dev mocha and save-dev testcafe. As of the 9th of May, there are no known issues in the application. The URL of the application is pasted below:-
 
