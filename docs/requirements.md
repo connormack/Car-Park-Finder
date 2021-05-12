@@ -41,7 +41,7 @@ Motorist, driver of a car who uses the application to discover car parks within 
 | **Actors** | Motorist |
 | **Assumptions** | Browser supports geo-location and dataset contains relevant data </td></tr>
 | **Steps** | <ol><li>Give permission for geo-location (on request)</li><li>Opt to set range of distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car park within range on the map</li><ol>|
-| **Variations** | Browser doesn't support geo-location <ol><li>Input postcode</li><li>Opt to set range of distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car park within range on the map</li><ol> |
+| **Variations** | Browser doesn't support geo-location <ol><li>Input postcode</li><li>Opt to set range of distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car parks on the map</li><ol> |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
