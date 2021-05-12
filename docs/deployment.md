@@ -42,4 +42,23 @@ UC2: As a motorist I want to find car park on a map.
 
 ![Insert screenshots here](images/MapDisplay.PNG)
 
-TODO: Repeat as necessary
+UC3: Find nearest free car park
+
+![Insert screenshots here](images/UC3-UserGuide1.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide2.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide3.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide4.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide5.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide6.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide7.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide8.PNG)
+
+![Insert screenshots here](images/UC3-UserGuide9.PNG)
+
