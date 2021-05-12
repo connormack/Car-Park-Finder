@@ -23,7 +23,7 @@ In accordance with this use-case, the user can either view all car parks in a sp
 
 1) For viewing all car parks in a specific area
 
-![Insert screenshots here](images/splashPage.PNG)
+![Insert screenshots here](images/splashPage.png)
 
 ![Insert screenshots here](images/location(Area).PNG)
 
