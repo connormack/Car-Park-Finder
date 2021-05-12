@@ -34,8 +34,6 @@ Motorist, driver of a car who uses the application to discover car parks within 
 | **Assumptions** | Browser has internet connectivity</td></tr>
 | **Steps** | <ol><li>Opt to view a map of Bristol.</li><li>Request permission to access webpage of said map.</li><li>Give permission for webpage access.</li><li>Find the cap park in the desired database, data received from database.</li><li>View the car park at the desired location on the map.</li><ol>|
 | **Variations** | Browser does not have internet connectivity |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 |USE-CASE | UC3: Find nearest free car park | 
 | -------------------------------------- | ------------------- |
