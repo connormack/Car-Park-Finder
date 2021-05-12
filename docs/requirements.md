@@ -66,7 +66,7 @@ Motorist, driver of a car who uses the application to discover car parks within 
 * NFR2 – car park location data will be up to date from database(reliability) (from UC1 and UC2 and UC3)
 * NFR3 – auto refresh to allow up-to-date information(useability) (from UC2 and UC3)
 * NFR4 – auto refresh set to sensible interval for effectiveness (efficacy) (from UC2 and UC3)
-* NFR5 – default location set to UWE as a zero point (maintainability) (from UC2 and UC3)
+* NFR5 – default location set to Bristol city centre as a zero point (maintainability) (from UC2 and UC3)
 * NFR6 - display a welcome screen(understandability) (from UC1, UC2 and UC3)
 
 
