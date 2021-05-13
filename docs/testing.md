@@ -20,6 +20,8 @@ For this use-case, two end-to-end tests are performed. The test file containing 
 TODO: For each test described above, indicate the current status. 
 Create a requirements traceability matrix to validate the completeness of the product.  
 
+Requirements traceability matrix, describing each of the executed tests and their current status:
+
 | Use-Case ID | Requirement ID | Test Case | Status |
 |  ------ | -------------- | --------- | ------ |
 | testUC1 |     FR7        | UC1T1     | Pass   |
