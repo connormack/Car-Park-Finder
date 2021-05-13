@@ -26,9 +26,9 @@ Requirements traceability matrix, describing each of the executed tests and thei
 |  ------ | -------------- | --------- | ------ |
 | testUC2 |     FR6        |    UC2T1  |  Pass  |
 |  ------ | -------------- | --------- | ------ |
-| testUC3 | -------------- | --------- |  Pass  |
-| testUC3 | -------------- | --------- |  Pass  |
-| testUC3 | -------------- | --------- |  Pass  |
+| testUC3 | -------------- | UC3       |  Pass  |
+| testUC3 | -------------- | UC3T1     |  Pass  |
+| testUC3 | -------------- | UC3T2     |  Pass  |
 
 
 
