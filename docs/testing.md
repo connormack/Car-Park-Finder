@@ -18,7 +18,7 @@ For this use-case, two end-to-end tests are performed. The test file containing 
 For this use-case, one unit and two end-to-end tests performed. The file of the unit test (test2.js) can be found in the 'test' folder of the main file directory. 
 In order to run 'UC3 - check view engine' unit test, it is required to install Mocha test framework as a development dependency. The file of the end-to-end tests (testUC3.js) can be found in the 'e2e' folder of the main file directory, it contains both UC3T1 and UC3T2. In order to run the end-to-end tests, it is required to install TestCafe end-to-end web testing tool and run the server in the background.
 - (UC3 - check view engine) unit test verifies that the application uses the appropriate view engine. 
-- (UC3T1) E2E test replicates the user actions of finding the nearest free of charge car park. The test verifies that the user can be presented with a table, containing the nearest free car park after executing a series of user actions.  
+- (UC3T1) E2E test replicates the user actions of finding the nearest free of charge car park. The test verifies that the user can be presented with a table, containing the nearest free car park, after executing a series of user actions.  
 - (UC3T2) E2E test replicates the user actions of displaying all the free car parks of Bristol on the map. The test verifies that the user can be presented with a map, displaying all of the free car parks, after executing a series of user actions.
 
 
