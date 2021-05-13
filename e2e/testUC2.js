@@ -8,17 +8,7 @@ fixture `UC2: E2E tests`
     };`
 });
 
-
-test('type test', async function(t) {
-    await t
-    .click('#Find-type')
-    .click('#Free')
-});
-
- //.expect(Selector('table > tbody').childElementCount).eql(24);
-
-
-test('map test', async function(t) {
+test('Display Map with all car parks shown (UC2T1)', async function(t) {
     await t
     .click('#Bristol-Car-Park-Map')
     .expect(Selector('#markerCount').value).eql('57');
