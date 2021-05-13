@@ -44,6 +44,8 @@ UC2: As a motorist I want to find car park on a map.
 
 UC3: As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge
 
+The following set of screenshots represents an user guide to achive the objective of locating the nearest free of charge car park in Bristol.
+
 ![Insert screenshots here](images/UC3-UserGuide1.PNG)
 
 ![Insert screenshots here](images/UC3-UserGuide2.PNG)
@@ -53,6 +55,9 @@ UC3: As a motorist, I want to find the nearest free car park so that I can park 
 ![Insert screenshots here](images/UC3-UserGuide4.PNG)
 
 ![Insert screenshots here](images/UC3-UserGuide5.PNG)
+
+Alternatively, the application allows us to obtain a visual representation of the free of charge car parks within Bristol. 
+The following set of screenshots represents the user guide to achieve the objective of displaying all the free of charge car parks in Bristol.
 
 ![Insert screenshots here](images/UC3-UserGuide6.PNG)
 
