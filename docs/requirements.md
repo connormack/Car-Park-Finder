@@ -34,6 +34,8 @@ Motorist, driver of a car who uses the application to discover car parks within 
 | **Assumptions** | Browser has internet connectivity</td></tr>
 | **Steps** | <ol><li>Opt to view a map of Bristol.</li><li>Request permission to access webpage of said map.</li><li>Give permission for webpage access.</li><li>Find the cap park in the desired database, data received from database.</li><li>View the car park at the desired location on the map.</li><ol>|
 | **Variations** | Browser does not have internet connectivity |
+| **Non-functional** |  |
+| **Issues** | |
 
 |USE-CASE | UC3: Find nearest free car park | 
 | -------------------------------------- | ------------------- |
@@ -42,6 +44,8 @@ Motorist, driver of a car who uses the application to discover car parks within 
 | **Assumptions** | Browser supports geo-location and dataset contains relevant data </td></tr>
 | **Steps** | <ol><li>Give permission for geo-location (on request)</li><li>Opt to set range of distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car parks on the map</li><ol>|
 | **Variations** | Browser doesn't support geo-location <ol><li>Input postcode</li><li>Opt to set range of distance for the user</li><li>Opt to view table of all car parks near me</li><li>Opt to view table of only free car parks within range</li><li>Display free car parks on the map</li><ol> |
+| **Non-functional** | |
+| **Issues** |  |
 
 
 ![User Case Diagram](images/UCD-car-park-finder.PNG)
