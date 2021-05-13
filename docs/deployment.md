@@ -14,7 +14,7 @@ The deployment diagram of the application is presented below:-
 
 An user guide is presented for each use-case. The aim of the guide for all use-cases is to help the user to utilize the features of the program that facilitates the use-case. The guides are:-
 
-UC1: As a motorist, I want to view car parks in a certain area or all car parks in Bristol, so that I can choose a suitable one to park my car.
+### UC1: As a motorist, I want to view car parks in a certain area or all car parks in Bristol, so that I can choose a suitable one to park my car.
 
 In accordance with this use-case, the user can either view all car parks in a specific area or all car parks in Bristol. A user guide to accomplish both these objectives are listed below:-
 
@@ -34,7 +34,7 @@ In accordance with this use-case, the user can either view all car parks in a sp
 
 ![Insert screenshots here](images/table(All).png)
 
-UC2: As a motorist I want to find car park on a map.
+### UC2: As a motorist I want to find car park on a map.
 
 ![Insert screenshots here](images/splash.PNG)
 
@@ -42,7 +42,7 @@ UC2: As a motorist I want to find car park on a map.
 
 ![Insert screenshots here](images/MapDisplay.PNG)
 
-UC3: As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge
+### UC3: As a motorist, I want to find the nearest free car park so that I can park my vehicle for free of charge
 
 The following set of screenshots represents an user guide to achive the objective of locating the nearest free of charge car park in Bristol.
 
