@@ -16,10 +16,6 @@ For this use-case, two end-to-end tests are performed. The test file containing 
 
 ### UC3: Find nearest free of charge car park in Bristol.
 
-
-TODO: For each test described above, indicate the current status. 
-Create a requirements traceability matrix to validate the completeness of the product.  
-
 Requirements traceability matrix, describing each of the executed tests and their current status:
 
 | Use-Case ID | Requirement ID | Test Case | Status |
@@ -29,7 +25,9 @@ Requirements traceability matrix, describing each of the executed tests and thei
 |  ------ | -------------- | --------- | ------ |
 | testUC2 |     FR6        |    UC2T1  |  Pass  |
 |  ------ | -------------- | --------- | ------ |
-| testUC3 | -------------- | --------- | ------ |
+| testUC3 | -------------- | --------- |  Pass  |
+| testUC3 | -------------- | --------- |  Pass  |
+| testUC3 | -------------- | --------- |  Pass  |
 
 
-TODO: Add rows for each test, current status is eg. pass/fail
+
