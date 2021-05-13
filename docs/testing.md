@@ -15,7 +15,8 @@ For this use-case, two end-to-end tests are performed. The test file containing 
 - (UC2T1) E2E test - testing the correct amount of car parks (57) displayed on the map.
 
 ### UC3: Find nearest free of charge car park in Bristol.
-
+For this use-case, one unit and two end-to-end tests performed. The file of the unit test (test2.js) can be found in the 'test' folder of the main file directory. 
+In order to run 'UC3 - check view engine' unit test, it is required to install Mocha test framework as a development dependency.
 - (UC3 - check view engine) unit test verifies that the application uses the appropriate view engine. 
 - (UC3T1) E2E test 
 - (UC3T2) E2E test 
@@ -31,7 +32,7 @@ Requirements traceability matrix, describing each of the executed tests and thei
 |  ------ | -------------- | --------- | ------ |
 | testUC2 |     FR6        |    UC2T1  |  Pass  |
 |  ------ | -------------- | --------- | ------ |
-| testUC3 | -------------- | UC3       |  Pass  |
+| testUC3 | FR1            | UC3       |  Pass  |
 | testUC3 | -------------- | UC3T1     |  Pass  |
 | testUC3 | -------------- | UC3T2     |  Pass  |
 
