@@ -57,7 +57,7 @@ The following set of screenshots represents an user guide to achive the objectiv
 ![Insert screenshots here](images/UC3-UserGuide5.PNG)
 
 Alternatively, the application allows us to obtain a visual representation of the free of charge car parks within Bristol. 
-The following set of screenshots represents the user guide to achieve the objective of displaying all the free of charge car parks in Bristol.
+The following set of screenshots represents the user guide to achieve the objective of displaying all the free of charge car parks in the Bristol area.
 
 ![Insert screenshots here](images/UC3-UserGuide6.PNG)
 
