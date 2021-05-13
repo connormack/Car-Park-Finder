@@ -1,9 +1,6 @@
 # Testing
 
 ## Test Plan
-TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
-Test Runs
-
 
 
 The tests are grouped according to the use-cases they represent. All the use-case and their tests are listed below:
