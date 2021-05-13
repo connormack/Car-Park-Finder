@@ -16,6 +16,11 @@ For this use-case, two end-to-end tests are performed. The test file containing 
 
 ### UC3: Find nearest free of charge car park in Bristol.
 
+- (UC3 - check view engine) unit test verifies that the application uses the appropriate view engine. 
+- (UC3T1) E2E test 
+- (UC3T2) E2E test 
+
+
 Requirements traceability matrix, describing each of the executed tests and their current status:
 
 
