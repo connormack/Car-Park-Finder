@@ -14,6 +14,9 @@ For this use-case, two end-to-end tests are performed. The test file containing 
 - (UC1T2) verifies if choosing one of the areas (central area), to view the car parks in that area, result in the correct number of car parks displayed in the table(13).
 - (UC2T1) E2E test - testing the correct amount of car parks (57) displayed on the map.
 
+### UC3: Find nearest free of charge car park in Bristol.
+
+
 TODO: For each test described above, indicate the current status. 
 Create a requirements traceability matrix to validate the completeness of the product.  
 
