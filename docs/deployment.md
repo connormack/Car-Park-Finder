@@ -2,11 +2,11 @@
 
 ## Release Notes
 
-The current version of the system is v1.0-alpha. The system dependencies are express, ejs, mysql, save-dev. The software tools used are save-dev mocha and save-dev testcafe. As of the 9th of May, there are no known issues in the application. The URL of the application is pasted below:-
+The current version of the system is v1.0-alpha. The system dependencies are Express, EJS and MySQL. The software tools used are Mocha test framework and TestCafe end-to-end web testing tool. As of the 9th of May 2021, there are no known issues in the application. The URL of the application is pasted below:-
 
 http://localhost:8080/
 
-The deployment diagram of the apllication is presented below:-
+The deployment diagram of the application is presented below:-
 
 ![Insert Deployment diagram here](images/DeploymentDiagram.png)
 
