@@ -8,7 +8,7 @@ The function of the application can be divided into three use-cases. A developer
 2) UC2: To allow the user to view all car parks in Bristol in a map.  (Developer: Connor Mackintosh)
 3) UC3: To allow the user to view the car parks by their type, free or paid.  (Developer: Jeno Labodi)
 
-The documents of each stage of the application developement process are located in the docs folder in the directory. The link to each of these documents can be found below:-
+The documents of each stage of the application developement process are located in the docs folder in the directory. The link to each of these documents can be found below:
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
